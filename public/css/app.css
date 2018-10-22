@@ -5,7 +5,7 @@
 }
 
 body {
-  background: url("../img/improving-life-health-hiking-nature.jpg") no-repeat center center;
+  background: url("../img/bohinj.jpg") no-repeat center center;
   font-family: Helvetica Neue for IBM, Helvetica Neue, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -184,12 +184,16 @@ div {
   border-radius: 1.5625rem;
   font-size: 1rem;
   color: #B5B5B5;
+  background: white;
   letter-spacing: 0.015rem;
   line-height: 1.3125rem;
 }
 
 .from-watson.latest .message-inner {
   color: #323232;
+  /* background: #66B7FF; */
+  background: white;
+  padding: 1%;
 }
 
 .from-watson p {
@@ -227,7 +231,7 @@ div {
 }
 
 .chat-heading {
-  color: rgb(99, 97, 97);
+  color: #61605f;
 }
 
 input::placeholder {
@@ -269,8 +273,9 @@ input:-moz-placeholder {
   border-bottom: 0.0625rem solid #aeaeae;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  background: rgb(196, 123, 123);
+  background: rgb(206, 139, 64);
   border-radius: 10px;
+  padding: 1%;
 }
 
 #textInputDummy {
